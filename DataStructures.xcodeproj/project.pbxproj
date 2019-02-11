@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		012360412211D66B005FD1BC /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		012360442211DC03005FD1BC /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		012F3CDB2209DDE20090369A /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		012F3CDC2209DDE20090369A /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		018E613921FF5B7C00478B91 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +138,7 @@
 				01B56A29220C85E700D47C36 /* Array.hpp */,
 				01B56A30220C94EE00D47C36 /* LinkedList.hpp */,
 				012360412211D66B005FD1BC /* Queue.hpp */,
+				012360442211DC03005FD1BC /* Stack.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
