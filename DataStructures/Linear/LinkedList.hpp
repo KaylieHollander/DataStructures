@@ -34,7 +34,7 @@ public:
     bool contains(Type item);
 protected:
     LinearNode<Type> * front;
-    LinearNode<Type * end;
+    LinearNode<Type> * end;
 };
     
 template <class Type>
@@ -58,7 +58,7 @@ LinkedList<Type> :: ~LinkedList()
 }
     
 template <class Type>
-void LinkedList<Type> :: addAtIndex(int index, Type Item)
+void LinkedList<Type> :: addAtIndex(int index, Type item)
 {
     assert(index >+ 0 && index <= this -> size);
     if(index == this -> size)
@@ -142,7 +142,7 @@ template <class Type>
         
         LinearNode<Type> * searchPointer = front;
         
-        for(int index = 0; index < getSize(); index++)
+        for(int index = 0; index < getsize(); index++)
         {
             if(searchPointer -> getData() == thingToFind)
             {

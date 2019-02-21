@@ -14,8 +14,8 @@
 #include <sstream>
 #include <string>
 #include <vector>
-#include "../Model/Linear/Array.hpp"
-#include "../Model/Linear/LinkedList.hpp"
+#include "../Linear/Array.hpp"
+#include "../Linear/LinkedList.hpp"
 
 #include "../Resources/CrimeData.hpp"
 #include "../Resources/Music.hpp"

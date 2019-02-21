@@ -56,7 +56,7 @@ void Stack<Type> :: push(Type data)
     }
     else
     {
-        add -> setNextNode(thiss -> front);
+        add -> setNextNode(this -> front);
     }
     
     this -> front = add;
@@ -91,7 +91,7 @@ Type Stack<Type> :: pop()
 }
 
 template <class Type>
-Type Stack<Type> :: removed(int index)
+Type Stack<Type> :: remove(int index)
 {
     assert(index == 0);
     return pop();

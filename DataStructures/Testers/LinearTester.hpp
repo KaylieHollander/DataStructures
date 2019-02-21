@@ -11,9 +11,9 @@
 
 #include "../Controller/Timer.hpp"
 #include "../Controller/FileController.hpp"
-#include "../Model/Linear/LinkedList.hpp"
-#include "../Model/Linear/Stack.hpp"
-#include "../Model/Linear/Queue.hpp"
+#include "../Linear/LinkedList.hpp"
+#include "../Linear/Stack.hpp"
+#include "../Linear/Queue.hpp"
 
 #include <iostream>
 using namespace std;
