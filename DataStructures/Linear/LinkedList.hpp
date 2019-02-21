@@ -22,7 +22,7 @@ public:
 //    Destructor
     virtual ~LinkedList();
 //    Helper Methods
-    int getsize() const;
+    int getSize() const;
     LinearNode<Type> * getFront();
     LinearNode<Type> * getEnd();
     
@@ -142,7 +142,7 @@ template <class Type>
         
         LinearNode<Type> * searchPointer = front;
         
-        for(int index = 0; index < getsize(); index++)
+        for(int index = 0; index < getSize(); index++)
         {
             if(searchPointer -> getData() == thingToFind)
             {
