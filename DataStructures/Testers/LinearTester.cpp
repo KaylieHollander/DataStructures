@@ -48,3 +48,24 @@ void LinearTester :: testVsSTL()
     musicOOP.resetTimer();
     musicSTL.resetTimer();
 }
+
+void LinearTester :: testVsStack()
+{
+    vector<CrimeData> crimes = FileController :: readCrimeDataToVector("/Users/khol1271/Documents/C++/DataStructures/DataStructures/Resources/crime.csv");
+    
+    LinkedList<CrimeData> moreCrimes = FileController :: readDataToList("/Users/khol1271/Documents/C++/DataStructures/DataStructures/Resources/crime.csv");
+    
+   
+}
+
+void LinearTester :: testVsQueue()
+{
+    vector<Music> tunez = FileController :: musicDataToVector("/Users/khol1271/Documents/C++/DataStructures/DataStructures/Resources/music.csv");
+    
+    LinkedList<Music> musicList = FileController :: musicDataToList("/Users/khol1271/Documents/C++/DataStructures/DataStructures/Resources/music.csv");
+}
+
+void LinearTester :: testVsDouble()
+{
+    
+}
