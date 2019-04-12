@@ -142,8 +142,8 @@ void testGraphs()
 void compareTraversals()
 {
 //    for if < previous and not 0 then store the number, find the smallest number that's not 0. Make an int variable
-    for (int i = 0; i < 50; i++)
-    {
-        
-    }
+//    for (int i = 0; i < 50; i++)
+//    {
+//        
+//    }
 }
