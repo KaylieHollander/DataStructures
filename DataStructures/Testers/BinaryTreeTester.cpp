@@ -29,3 +29,5 @@ void BinaryTreeTester :: doTreeStuff()
     
     testTree.inOrderTraversal();
 }
+
+
