@@ -10,6 +10,7 @@
 		012F3CDD2209DDE20090369A /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 012F3CDB2209DDE20090369A /* Timer.cpp */; };
 		018E614A21FF5D8C00478B91 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018E614821FF5D8C00478B91 /* Controller.cpp */; };
 		018E614D21FF5EB500478B91 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018E614B21FF5EB500478B91 /* Runner.cpp */; };
+		01A4EFAB22661C3900625B51 /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A4EFA922661C3900625B51 /* BinaryTreeTester.cpp */; };
 		01B56A19220C841A00D47C36 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01B56A17220C841A00D47C36 /* CrimeData.cpp */; };
 		01B56A1B220C844400D47C36 /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01B56A1A220C844400D47C36 /* Music.cpp */; };
 		01BD6EA22214773200A46B93 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01BD6EA02214773200A46B93 /* FileController.cpp */; };
@@ -42,6 +43,8 @@
 		01A1B36322302E3B00C78D64 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		01A1B92B221EF01A00187C48 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		01A1B92D221EF80D00187C48 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
+		01A4EFA922661C3900625B51 /* BinaryTreeTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeTester.cpp; sourceTree = "<group>"; };
+		01A4EFAA22661C3900625B51 /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
 		01B56A15220C83AA00D47C36 /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		01B56A16220C83D300D47C36 /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
 		01B56A17220C841A00D47C36 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
@@ -60,7 +63,6 @@
 		01DBBF44223FDB0F00096BDF /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
 		01DBBF45223FDB0F00096BDF /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
 		01FEE6932260D8DD009A7362 /* BinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTree.hpp; sourceTree = "<group>"; };
-		01FEE6962260DFDF009A7362 /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
 		01FEE6982260E358009A7362 /* Tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tree.hpp; sourceTree = "<group>"; };
 		01FEE69A2260E4AB009A7362 /* BinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,7 +176,8 @@
 				01BD6EA622147EA600A46B93 /* LinearTester.hpp */,
 				01DBBF44223FDB0F00096BDF /* GraphTester.cpp */,
 				01DBBF45223FDB0F00096BDF /* GraphTester.hpp */,
-				01FEE6962260DFDF009A7362 /* BinaryTreeTester.hpp */,
+				01A4EFA922661C3900625B51 /* BinaryTreeTester.cpp */,
+				01A4EFAA22661C3900625B51 /* BinaryTreeTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			files = (
 				01B56A1B220C844400D47C36 /* Music.cpp in Sources */,
 				01B56A19220C841A00D47C36 /* CrimeData.cpp in Sources */,
+				01A4EFAB22661C3900625B51 /* BinaryTreeTester.cpp in Sources */,
 				012F3CDD2209DDE20090369A /* Timer.cpp in Sources */,
 				018E614A21FF5D8C00478B91 /* Controller.cpp in Sources */,
 				01DBBF46223FDB0F00096BDF /* GraphTester.cpp in Sources */,
